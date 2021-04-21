@@ -1,0 +1,41 @@
+@import "./_variables.scss";
+@import "bootstrap";
+@import "./_transitions.scss";
+@import "./_overrides.scss";
+
+:root {
+  --grey: #f6f6f6;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: $body-bg;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  align-items: stretch;
+}
+
+.card-columns {
+  @include media-breakpoint-only(xs) {
+    column-count: 2;
+  }
+  @include media-breakpoint-only(sm) {
+    column-count: 3;
+  }
+  @include media-breakpoint-only(md) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
