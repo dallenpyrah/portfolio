@@ -122,10 +122,83 @@
             K<span class="text-success">ee</span>pr
           </h6>
         </div>
-        <div class="col-11 mt-2">
+        <div class="col-11 mb-3 mt-2">
           <div class="card bg-dark">
             <img class="img-fluid p-3" data-aos-duration="4000" data-aos="slide-left" src="https://dm8ix2eh2gsglmbyba2271c4-wpengine.netdna-ssl.com/wp-content/uploads/2020/09/hybrid-apps-mobile.png" />
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-10 text-dark mt-5 text-center">
+        <h5>What can <span class="text-success">I</span> do for <span class="text-success">you?</span></h5>
+      </div>
+    </div>
+    <div class="row justify-content-around mt-3">
+      <div class="col-7 mb-3 mt-3">
+        <div class="card bg-warning rounded text-center">
+          <h6 class="text-light mt-2">
+            <i class="fa fa-user-circle text-success mr-2" aria-hidden="true"></i> Front End
+          </h6>
+        </div>
+      </div>
+      <div class="col-6 mt-5">
+        <div class="card bg-success rounded text-center">
+          <h6 class="text-light mt-2">
+            UI Design <i class="fa fa-paint-brush text-dark ml-2" aria-hidden="true"></i>
+          </h6>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card bg-success rounded text-center mt-2">
+          <h6 class="text-light mt-2">
+            UX Design <i class="fa fa-heart ml-2 text-dark" aria-hidden="true"></i>
+          </h6>
+        </div>
+      </div>
+      <div class="col-7 mt-3 mb-5">
+        <div class="card bg-warning rounded text-center mt-3">
+          <h6 class="text-light mt-2">
+            <i class="fa fa-laptop text-success mr-2" aria-hidden="true"></i> Back End
+          </h6>
+        </div>
+      </div>
+    </div>
+    <div class="bg-dark">
+      <div class="row bg-dark justify-content-center mt-4">
+        <div class="col-10 text-center text-light mt-5 mb-3">
+          <h4><span class="text-success">Contact</span> Me</h4>
+        </div>
+        <div class="col-10  text-light text-center">
+          <h6 class="mt-3 mb-3">
+            <i class="fa fa-phone mr-2" aria-hidden="true"></i> (208) 392-8732
+          </h6>
+          <h6 class="mt-3">
+            <i class="fa fa-address-card mr-2" aria-hidden="true"></i> dallenpyrah@gmail.com
+          </h6>
+        </div>
+        <div class="col-10 text-center  text-light mt-5 mb-4">
+          <h4><span class="text-success">Your</span> Information</h4>
+          <form>
+            <div class="form-row mt-4">
+              <div class="col-6">
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col-6">
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+              <div class="col-12 mt-2">
+                <input type="text" class="form-control" placeholder="Email">
+              </div>
+              <div class="col-12 mt-2">
+                <input type="text" class="form-control" placeholder="Phone Number">
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-10 text-center  text-light">
+          <i class="fa fa-github m-2" aria-hidden="true"></i>
+          <i class="fa fa-linkedin-square m-2" aria-hidden="true"></i>
         </div>
       </div>
     </div>
