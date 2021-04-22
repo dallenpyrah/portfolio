@@ -1,11 +1,13 @@
 <template>
   <mobile-tablet class="mobile-tablet" />
+  <desktop class="desktop" />
 </template>
 
 <script>
 import MobileTablet from './MobileTablet.vue'
+import Desktop from './Desktop.vue'
 export default {
-  components: { MobileTablet },
+  components: { MobileTablet, Desktop },
   name: 'Home'
 }
 </script>

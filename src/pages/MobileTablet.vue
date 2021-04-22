@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid bg-white">
+  <div class="container-fluid bg-white body">
     <div class="row justify-content-center">
       <div class="col-4">
         <img class="img-fluid" src="../assets/img/dallen.jpg" />
@@ -21,7 +21,7 @@
         </h6>
       </div>
     </div>
-    <div class="row justify-content-center mt-5">
+    <div class="row justify-content-center mt-3">
       <div class="col-9 text-center">
         <h4>
           This is my tech <span class="text-success">stack.</span><h5>
@@ -29,16 +29,16 @@
         </h4>
       </div>
     </div>
-    <div class="row m-2 justify-content-around mt-4">
+    <div class="row m-2 justify-content-around mt-3">
       <div class="col-3 mt-4">
         <h6 class="text-center text-dark mt-2">
-          .NET
+          HTML5
         </h6>
       </div>
       <div class="col-6 mt-2">
         <div class="card rounded bg-success text-center">
           <h6 class="text-light shadow-lg mt-2">
-            Vue.js
+            Vue.js 3
           </h6>
         </div>
       </div>
@@ -52,7 +52,7 @@
       <div class="col-6 mt-2">
         <div class="card rounded bg-dark text-center">
           <h6 class="text-light shadow-lg mt-2">
-            C#
+            .NET Core C#
           </h6>
         </div>
       </div>
@@ -79,12 +79,28 @@
       </div>
       <div class="col-3">
         <h6 class="text-center text-dark mt-2">
-          CSS
+          CSS 3
         </h6>
       </div>
     </div>
+    <div class="row m-2 justify-content-around mt-1">
+      <div class="col-6 mt-2">
+        <div class="card rounded bg-dark text-center">
+          <h6 class="text-light shadow-lg mt-2">
+            Bootstrap
+          </h6>
+        </div>
+      </div>
+      <div class="col-6 mt-2">
+        <div class="card rounded bg-dark shadow-lg text-center">
+          <h6 class="text-light mt-2">
+            Web API's
+          </h6>
+        </div>
+      </div>
+    </div>
     <div class="row justify-content-center">
-      <i class="fa fa-arrow-circle-down mt-4" aria-hidden="true"></i>
+      <i class="fa fa-arrow-circle-down mt-3" aria-hidden="true"></i>
     </div>
     <div class="bg-dark">
       <div class="row bg-dark justify-content-center mt-5">
@@ -129,7 +145,7 @@
         <div class="col-11 mb-3 mt-2">
           <div class="card bg-dark image">
             <a href="https://github.com/dallenpyrah/keepr">
-              <img class="img-fluid p-3 mb-5 mt-4" data-aos-duration="4000" data-aos="slide-left" src="../assets/img/keepr.png" />
+              <img class="img-fluid p-3 mb-5 mt-4" data-aos-duration="4000" data-aos="slide-right" src="../assets/img/keepr.png" />
             </a>
           </div>
         </div>
@@ -170,6 +186,23 @@
         </div>
       </div>
     </div>
+    <div class="row justify-content-center">
+      <div class="col-10 text-center">
+        <h5 data-aos="fade-up-left">
+          Passionate Student of <span class="text-success">Life</span>
+        </h5>
+      </div>
+      <div class="col-10 text-center mt-3">
+        <h6 class="line-padding text-secondary" data-aos="fade-in">
+          I have a <span class="text-dark">deep desire</span> to <span class="text-success">learn</span> all I can while I am <span class="text-dark">here</span> and I'm always <span class="text-dark">looking</span> for <span class="text-success">opportunities</span> to grow <span class="text-success">personally</span> and <span class="text-dark">professionally.</span>
+        </h6>
+      </div>
+      <div class="col-10 text-center mt-5">
+        <h5 class="text-secondary" data-aos="fade-up-right">
+          I'm <span class="text-success">Open</span> to <span class="text-dark">Work</span>
+        </h5>
+      </div>
+    </div>
     <div class="bg-dark">
       <div class="row bg-dark justify-content-center mt-4">
         <div class="col-10 text-center text-light mt-5 mb-3" data-aos="fade-down-right">
@@ -177,10 +210,10 @@
         </div>
         <div class="col-10  text-light text-center" data-aos="slide-right">
           <h6 class="mt-3 mb-3">
-            <i class="fa fa-phone mr-2" aria-hidden="true"></i> (208) 392-8732
+            <i class="fa fa-phone mr-2 text-success" aria-hidden="true"></i> (208) 392-8732
           </h6>
           <h6 class="mt-3">
-            <i class="fa fa-address-card mr-2" aria-hidden="true"></i> dallenpyrah@gmail.com
+            <i class="fa fa-address-card mr-2 text-secondary" aria-hidden="true"></i> dallenpyrah@gmail.com
           </h6>
         </div>
         <div class="col-10 text-center  text-light mt-5 mb-4" data-aos="fade-down-left">
@@ -202,9 +235,10 @@
             </div>
           </form>
         </div>
-        <div class="col-10 text-center mb-3  text-light">
-          <i class="fa fa-github m-2" aria-hidden="true"></i>
-          <i class="fa fa-linkedin-square m-2" aria-hidden="true"></i>
+        <div class="col-10 text-center mb-3 mt-3 text-light">
+          <i class="fa fa-github fa-2x text-secondary m-2" aria-hidden="true"></i>
+          <i class="fa fa-linkedin-square text-primary m-2 fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-instagram fa-2x m-2 text-danger" aria-hidden="true"></i>
         </div>
       </div>
     </div>
@@ -257,5 +291,8 @@ export default {
 }
 .image{
   transition: all .25s;
+}
+.body{
+  font-family: 'Inter', sans-serif;
 }
 </style>
