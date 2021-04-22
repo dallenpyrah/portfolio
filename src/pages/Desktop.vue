@@ -1,23 +1,24 @@
 <template>
-  <div class="container-fluid bg-success hover-background-left desktop">
-    <div class="row justify-content-between">
-      <h1 class="ml-4 text-light">
-        Hello <span class="text-dark text-name">.</span>
-      </h1>
-    </div>
-    <div class="row justify-content-center margin-name">
-      <div class="col-12 text-right">
-        <h1 class="text-light text-name-dallen">
+  <div class="container-fluid bg-success vh-100">
+    <div class="row">
+      <div class="col-6 hover-background-left height-left">
+        <h1 class="ml-five text-light hello animate__animated animate__hinge animate__delay-2s">
+          Hello <span class="text-dark text-name">.</span>
+        </h1>
+        <h1 class="text-light text-right text-name-dallen margin-name animate__animated animate__slideInLeft">
           I am
         </h1>
       </div>
-    </div>
-  </div>
-  <div class="container-fluid bg-white hover-background-right desktop">
-    <div class="row justify-content-center margin-name-dallen">
-      <div class="col-12 text-left">
-        <h1 class="text-dark text-name-dallen">
+      <div class="col-6 bg-white hover-background-right height-right">
+        <h1 class="text-dark text-left text-name-dallen margin-name-dallen animate__animated animate__slideInRight">
           Dallen <span class="text-dark text-name">.</span>
+        </h1>
+      </div>
+    </div>
+    <div class="row bg-white vh-100">
+      <div class="col-12 text-center">
+        <h1 class="mt-5 acctive">
+          Second Row
         </h1>
       </div>
     </div>
@@ -25,25 +26,19 @@
 </template>
 
 <script>
-import AOS from 'aos'
 import 'animate.css'
-import 'aos/dist/aos.css'
-import { reactive } from 'vue'
-AOS.init()
 export default {
-  name: 'Desktop',
-  setup() {
-    const state = reactive({
 
-    })
-    return {
-      state
-    }
-  }
 }
 </script>
 
 <style scoped>
+.hello:hover{
+  transform: translateY(-10px);
+}
+.hello{
+  transition: all 0.25s;
+}
 .text-large{
   font-size: 15rem;
 }
@@ -60,15 +55,15 @@ export default {
   color: rgb(43, 43, 43)!important;
 }
 .margin-name{
-  margin-top: 25rem;
+  margin-top: 20.5rem;
 }
 .margin-name-dallen{
-  margin-top: 31.5rem;
+  margin-top: 26.5rem;
 }
-.hover-background-left:hover .row .text-light{
+.hover-background-left:hover .text-light{
   color: black!important;
 }
-.hover-background-left:hover .row .text-light .text-dark{
+.hover-background-left:hover .text-light .text-dark{
   color: #00e68e!important;
 }
 .hover-background-left:hover{
@@ -78,12 +73,24 @@ export default {
   transition: all .25s;
 }
 .hover-background-right:hover{
-  background-color: #00e68e!important;
+  background-color:#00e68e!important;
 }
-.hover-background-right:hover .row .col-12 .text-dark{
-  color: white!important;
+.hover-background-right:hover .text-dark{
+  color:#ffffff!important;
+}
+.hover-background-right:hover .text-dark .text-dark{
+  color:#000000!important;
 }
 .hover-background-right{
   transition: all .25s;
+}
+.height-left{
+  height: 100vh;
+}
+.height-right{
+  height: 100vh;
+}
+.ml-five{
+  margin-left: 4rem;
 }
 </style>
