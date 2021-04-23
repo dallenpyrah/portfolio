@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid bg-success vh-100">
-    <div class="row">
-      <div class="col-6 hover-background-left height-left">
+    <div class="row height-left">
+      <div class="col-6 hover-background-left">
         <h1 class="ml-five text-light hello animate__animated animate__hinge animate__delay-2s">
           Hello <span class="text-dark text-name">.</span>
         </h1>
@@ -11,7 +11,7 @@
         <div class="line-left">
         </div>
       </div>
-      <div class="col-6 bg-white hover-background-right height-right">
+      <div class="col-6 bg-white hover-background-right">
         <h1 class="text-success text-left text-name-dallen margin-name-dallen animate__animated animate__slideInRight">
           Dallen <span class="text-dark text-name">.</span>
         </h1>
@@ -110,15 +110,47 @@
         </div>
       </div>
     </div>
+    <div class="row h-75 justify-content-around bg-dark">
+      <div class="col-6 text-center text-light margin-top-pam">
+        <h2><span class="hover-text-success">710</span> <span class="hover-text-secondary text-success">Personal</span> <span class="hover-text-success">Auto</span> <span class="hover-text-secondary text-success">Maintenance</span> <span class="hover-text-success">Application</span></h2>
+      </div>
+      <div class="col-6 text-center bg-dark">
+        <div class="card bg-dark">
+          <a href="https://github.com/NikolaCop/710">
+            <img class="img-fluid img-size image" src="../assets/img/7100.png" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row h-100 justify-content-around bg-dark">
+      <div class="col-6 mt-bug text-center bg-dark">
+        <div class="card bg-dark">
+          <a href="https://github.com/dallenpyrah/bug-logger">
+            <img class="img-fluid image image-bug-size" src="../assets/img/bug.png" />
+          </a>
+        </div>
+      </div>
+      <div class="col-6 text-center text-light mt-bug-text">
+        <h2><span class="hover-text-success">Bug</span> <span class="hover-text-secondary text-success">Logger</span></h2>
+      </div>
+    </div>
+    <div class="row h-100 justify-content-around bg-dark">
+      <div class="col-6 text-center text-light mt-keepr">
+        <h2><span class="hover-text-success">Keepr</span></h2>
+      </div>
+      <div class="col-6 mt-bug text-center bg-dark">
+        <div class="card bg-dark">
+          <a href="https://github.com/dallenpyrah/keepr">
+            <img class="img-fluid image image-bug-size" src="../assets/img/keepr.png" />
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import AOS from 'aos'
-import 'animate.css'
-import 'aos/dist/aos.css'
 import { reactive } from 'vue'
-AOS.init()
 export default {
   name: 'Desktop',
   setup() {
@@ -132,9 +164,34 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+.mt-keepr{
+  margin-top: 35rem;
+}
+.mt-bug-text{
+  margin-top: 30rem;
+}
+.mt-bug{
+  margin-top: 12rem;
+}
+.image-bug-size{
+  width: 450px;
+}
+.image:hover{
+  transform: translateY(-20px);
+  cursor: pointer;
+}
+.image{
+  transition: all .25s;
+}
+.margin-top-pam{
+  margin-top: 18rem;
+}
+.img-size{
+  width: 450px;
+}
 .last-row-height{
-  height: 25vh;
+  height: 29vh;
 }
 .mt-bottom{
   margin-top: 11rem;
@@ -183,6 +240,16 @@ export default {
 }
 .portfolio{
   transition: all 0.25s;
+}
+.portfolio-line{
+  border-radius: 3rem;
+  transition: all .35s;
+  opacity: 0;
+  position: absolute;
+  left: 8px;
+  background-color:  #00e68e!important;
+  height: 10px;
+  width: 300px;
 }
 .portfolio:hover .portfolio-line{
   opacity: 1;

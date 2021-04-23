@@ -246,11 +246,7 @@
 </template>
 
 <script>
-import AOS from 'aos'
-import 'animate.css'
-import 'aos/dist/aos.css'
 import { reactive } from 'vue'
-AOS.init()
 export default {
   name: 'MobileTablet',
   setup() {
