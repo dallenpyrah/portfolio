@@ -1,10 +1,12 @@
 <template>
-  <div class="container-fluid bg-success vh-100">
+  <div class="container-fluid bg-success body vh-100">
     <div class="row height-left">
       <div class="col-6 hover-background-left">
-        <h1 class="ml-five text-light hello animate__animated animate__hinge animate__delay-2s">
-          Hello <span class="text-dark text-name">.</span>
-        </h1>
+        <div>
+          <h1 class="ml-five text-light hello animate__animated animate__hinge animate__delay-2s">
+            Hello <span class="text-dark text-name">.</span>
+          </h1>
+        </div>
         <h1 class="text-light text-right text-name-dallen margin-name animate__animated animate__slideInLeft">
           I am
         </h1>
@@ -20,7 +22,7 @@
       </div>
     </div>
     <div class="row bg-white">
-      <div class="col-4 aboutme ml-five text-success text-left">
+      <div class="col-4 aboutme ml-five text-success text-left" data-aos="slide-left">
         <h1>About Me<span class="text-dark ml-3 text-name">.</span></h1>
         <div class="about-me-line">
         </div>
@@ -28,17 +30,25 @@
     </div>
     <div class="row bg-white height-description justify-content-center">
       <div class="col-10 text-center margin-description">
-        <h1 class="text-secondary line-padding">
+        <h1 class="text-secondary line-padding" data-aos="slide-right">
           <span class="hover-text-dark">I'm</span>  <span class="hover-text-dark">a</span> <span class="text-dark hover-text-success">software developer</span> <span class="hover-text-dark">with</span> <span class="hover-text-dark">a</span> <span class="hover-text-dark">passion</span> <span class="hover-text-dark">for</span> <span class="hover-text-dark">building</span> <span class="text-success hover-text-secondary">futuristic</span> <span class="hover-text-dark">driven</span> <span class="hover-text-dark">applications.</span>
           <span class="hover-text-dark"> I</span> <span class="hover-text-dark">enjoy</span> <span class="hover-text-dark">learning</span> <span class="hover-text-dark">about</span> <span class="hover-text-dark">the</span> <span class="text-dark hover-text-success">concepts</span> <span class="hover-text-dark">of</span> <span class="text-success hover-text-secondary">design</span> <span class="hover-text-dark">with</span> <span class="hover-text-dark">an</span> <span class="text-dark hover-text-success">appreciation</span> <span class="hover-text-dark">for</span> <span class="hover-text-dark">the</span> <span class="text-success hover-text-secondary">arts.</span>
           <span class="hover-text-dark"> In</span> <span class="hover-text-dark">my</span> <span class="hover-text-dark">free</span> <span class="hover-text-dark">time</span> <span class="hover-text-dark">you</span> <span class="hover-text-dark">can</span> <span class="hover-text-dark">find</span> <span class="hover-text-dark">me</span> <span class="hover-text-dark">spending</span> <span class="hover-text-dark">time</span> <span class="text-dark hover-text-success">outside</span> <span class="hover-text-dark">enjoying</span> <span class="hover-text-dark">all</span> <span class="hover-text-dark">that</span> <span class="text-success hover-text-secondary">life</span> <span class="hover-text-dark">has</span> <span class="hover-text-dark">to</span> <span class="hover-text-dark">offer.
           </span>
         </h1>
       </div>
+      <div class="col-10 text-center">
+        <h1>
+          <i class="bi bi-tsunami tsunami"></i><i class="bi bi-sun sun ml-5"></i>
+          <i class="bi bi-paint-bucket bucket ml-5"></i><i class="bi bi-camera2 camera ml-5"></i>
+        </h1>
+      </div>
     </div>
     <div class="row h-25 bg-white">
       <div class="col-4 techstack ml-five text-success text-left">
-        <h1><span class="text-success">My </span> Tech Stack<span class="text-dark ml-3 text-name">.</span></h1>
+        <h1 data-aos="fade-up">
+          <span class="text-success">My </span> Tech Stack<span class="text-dark ml-3 text-name">.</span>
+        </h1>
         <div class="tech-stack-line">
         </div>
       </div>
@@ -46,30 +56,34 @@
     <div class="row bg-white justify-content-around">
       <div class="col-2 mt-5">
         <div class="text-center text-dark html5 p-2">
-          <h2 class="">
+          <h2 data-aos="fade-right" class="">
             HTML 5
           </h2>
         </div>
       </div>
       <div class="col-3">
-        <div class="card bg-success text-center text-light vuejs p-2">
-          <h2>Vue.js 3</h2>
+        <div class="card bg-success text-center text-light vuejs p-2" data-aos="fade-up">
+          <h2>
+            Vue.js 3
+          </h2>
         </div>
       </div>
       <div class="col-2 mt-5">
         <div class="text-center text-dark mysql p-2">
-          <h2>My Sql</h2>
+          <h2 data-aos="fade-right">
+            My Sql
+          </h2>
         </div>
       </div>
     </div>
     <div class="row bg-white justify-content-center">
       <div class="col-4 mt-6">
-        <div class="card bg-dark text-center text-light middle-row p-2">
+        <div class="card bg-dark text-center text-light middle-row p-2" data-aos="zoom-in-left">
           <h2>.NET Core C#</h2>
         </div>
       </div>
       <div class="col-4 mt-6">
-        <div class="card bg-dark text-center text-light middle-row p-2">
+        <div class="card bg-dark text-center text-light middle-row p-2" data-aos="zoom-in-right">
           <h2>JavaScript E6</h2>
         </div>
       </div>
@@ -77,34 +91,38 @@
     <div class="row bg-white justify-content-around">
       <div class="col-2 mt-6">
         <div class="text-center text-dark html5 p-2">
-          <h2>Node.js</h2>
+          <h2 data-aos="fade-left">
+            Node.js
+          </h2>
         </div>
       </div>
       <div class="col-3 mt-bottom">
-        <div class="card bg-success text-center text-light vuejs p-2">
+        <div class="card bg-success text-center text-light vuejs p-2" data-aos="fade-down">
           <h2>MongoDb</h2>
         </div>
       </div>
       <div class="col-2 mt-6">
         <div class="text-center text-dark mysql p-2">
-          <h2>CSS 3</h2>
+          <h2 data-aos="fade-right">
+            CSS 3
+          </h2>
         </div>
       </div>
     </div>
     <div class="row last-row-height bg-white justify-content-center">
       <div class="col-4 mt-6">
-        <div class="card bg-dark text-center text-light middle-row p-2">
+        <div class="card bg-dark text-center text-light middle-row p-2" data-aos="zoom-in-left">
           <h2>.NET Core C#</h2>
         </div>
       </div>
       <div class="col-4 mt-6">
-        <div class="card bg-dark text-center text-light middle-row p-2">
+        <div class="card bg-dark text-center text-light middle-row p-2" data-aos="zoom-in-right">
           <h2>JavaScript E6</h2>
         </div>
       </div>
     </div>
     <div class="row h-25 bg-dark">
-      <div class="col-4 portfolio ml-five text-success text-left">
+      <div class="col-4 portfolio ml-five text-success text-left" data-aos="slide-left">
         <h1><span class="text-success">My </span> Portfolio<span class="text-light ml-3 text-name">.</span></h1>
         <div class="portfolio-line">
         </div>
@@ -112,12 +130,14 @@
     </div>
     <div class="row h-75 justify-content-around bg-dark">
       <div class="col-6 text-center text-light margin-top-pam">
-        <h2><span class="hover-text-success">710</span> <span class="hover-text-secondary text-success">Personal</span> <span class="hover-text-success">Auto</span> <span class="hover-text-secondary text-success">Maintenance</span> <span class="hover-text-success">Application</span></h2>
+        <h2 data-aos="slide-down">
+          <span class="hover-text-success">710</span> <span class="hover-text-secondary text-success">Personal</span> <span class="hover-text-success">Auto</span> <span class="hover-text-secondary text-success">Maintenance</span> <span class="hover-text-success">Application</span>
+        </h2>
       </div>
       <div class="col-6 text-center bg-dark">
         <div class="card bg-dark">
           <a href="https://github.com/NikolaCop/710">
-            <img class="img-fluid img-size image" src="../assets/img/7100.png" />
+            <img class="img-fluid img-size image " data-aos="slide-up" src="../assets/img/7100.png" />
           </a>
         </div>
       </div>
@@ -126,22 +146,26 @@
       <div class="col-6 mt-bug text-center bg-dark">
         <div class="card bg-dark">
           <a href="https://github.com/dallenpyrah/bug-logger">
-            <img class="img-fluid image image-bug-size" src="../assets/img/bug.png" />
+            <img class="img-fluid image image-bug-size" data-aos="slide-down" src="../assets/img/bug.png" />
           </a>
         </div>
       </div>
       <div class="col-6 text-center text-light mt-bug-text">
-        <h2><span class="hover-text-success">Bug</span> <span class="hover-text-secondary text-success">Logger</span></h2>
+        <h2 data-aos="slide-down">
+          <span class="hover-text-success">Bug</span> <span class="hover-text-secondary text-success">Logger</span>
+        </h2>
       </div>
     </div>
     <div class="row h-100 justify-content-around bg-dark">
       <div class="col-6 text-center text-light mt-keepr">
-        <h2><span class="hover-text-success">Keepr</span></h2>
+        <h2 data-aos="slide-down">
+          <span class="hover-text-success">Keepr</span>
+        </h2>
       </div>
       <div class="col-6 mt-bug text-center bg-dark">
         <div class="card bg-dark">
           <a href="https://github.com/dallenpyrah/keepr">
-            <img class="img-fluid image image-bug-size" src="../assets/img/keepr.png" />
+            <img class="img-fluid image image-bug-size" data-aos="slide-up" src="../assets/img/keepr.png" />
           </a>
         </div>
       </div>
@@ -165,6 +189,34 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.tsunami:hover{
+  color: rgb(10, 104, 255);
+  font-size: 60px;
+}
+.sun:hover{
+  color: rgb(255, 169, 8);
+  font-size: 60px;
+}
+.bucket:hover{
+  color: rgb(14, 255, 126);
+  font-size: 60px;
+}
+.camera:hover{
+  color: rgb(255, 59, 59);
+  font-size: 60px;
+}
+.tsunami{
+  transition: all 0.25s;
+}
+.sun{
+  transition: all 0.25s;
+}
+.bucket{
+  transition: all 0.25s;
+}
+.camera{
+  transition: all 0.25s;
+}
 .mt-keepr{
   margin-top: 35rem;
 }
@@ -205,7 +257,7 @@ export default {
   transform: translateY(-10px);
 }
 .middle-row{
-  transition: all 0.45s;
+  transition: all 0.45s!important;
   border-radius: 1rem;
 }
 .vuejs:hover{
@@ -214,7 +266,7 @@ export default {
   transform: translateY(-10px);
 }
 .vuejs{
-  transition: all 0.45s;
+  transition: all 0.45s!important;
   border-radius: 1rem;
 }
 .html5:hover{
@@ -223,7 +275,7 @@ export default {
   transform: translateY(-10px);
 }
 .html5{
-  transition: all 0.45s;
+  transition: all 0.45s!important;
   border-radius: 1rem;
 }
 .mysql:hover{
@@ -232,14 +284,14 @@ export default {
   transform: translateY(-10px);
 }
 .mysql{
-  transition: all 0.45s;
+  transition: all 0.45s!important;
   border-radius: 1rem;
 }
 .portfolio:hover{
  color: rgb(255, 255, 255)!important;
 }
 .portfolio{
-  transition: all 0.25s;
+  transition: all 0.25s!important;
 }
 .portfolio-line{
   border-radius: 3rem;

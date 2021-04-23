@@ -289,6 +289,6 @@ export default {
   transition: all .25s;
 }
 .body{
-  font-family: 'Inter', sans-serif;
+ font-family: 'Varela Round', sans-serif!important;
 }
 </style>
