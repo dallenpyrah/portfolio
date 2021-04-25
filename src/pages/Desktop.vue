@@ -133,6 +133,14 @@
         <h2 data-aos="slide-down">
           <span class="hover-text-success">710</span> <span class="hover-text-secondary text-success">Personal</span> <span class="hover-text-success">Auto</span> <span class="hover-text-secondary text-success">Maintenance</span> <span class="hover-text-success">Application</span>
         </h2>
+        <div class="row justify-content-center">
+          <div class="col-6 text-center mt-3">
+            <h5 data-aos="slide-down line-padding">
+              <span class="">Full Stack team <span class="text-success hover-text-secondary">application</span> built with Vue.js 3, JavaScript E6, Node.js, Firebase, MongoDb, Auth0, CSS3, Bootstrap, and Animate.css. I helped <span class="text-success hover-text-secondary">build</span> both the front and back end of the <span class="text-success hover-text-secondary">application</span> as well as was the lead <span class="text-success hover-text-secondary">UX/UI designer.</span>
+              </span>
+            </h5>
+          </div>
+        </div>
       </div>
       <div class="col-6 text-center bg-dark">
         <div class="card bg-dark">
