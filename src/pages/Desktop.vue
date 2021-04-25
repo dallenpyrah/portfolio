@@ -162,6 +162,14 @@
         <h2 data-aos="slide-down">
           <span class="hover-text-success">Bug</span> <span class="hover-text-secondary text-success">Logger</span>
         </h2>
+        <div class="row justify-content-center">
+          <div class="col-6 text-center mt-3">
+            <h5 data-aos="slide-down line-padding">
+              <span class="">A solo full stack application built with Vue.js, Javascript, Node.js, MongoDb, Auth0, CSS, Bootstrap, and Animate.css.
+                Users have the ability to create, monitor, edit, and close bugs once logged in through Auth0</span>
+            </h5>
+          </div>
+        </div>
       </div>
     </div>
     <div class="row h-100 justify-content-around bg-dark">
@@ -169,6 +177,15 @@
         <h2 data-aos="slide-down">
           <span class="hover-text-success">Keepr</span>
         </h2>
+        <div class="row justify-content-center">
+          <div class="col-6 text-center mt-3">
+            <h5 data-aos="slide-down line-padding">
+              <span class="">
+                This application is a full-stack application. I utilized a VueJs frontend and Vue-Router to manage the dom. On the server side I utilized the DotNet WebApi, implementing the Repository pattern to communicate with the database. In addition I used Auth0 for user management, dapper as an ORM and a MySQL server for the database.
+              </span>
+            </h5>
+          </div>
+        </div>
       </div>
       <div class="col-6 mt-bug text-center bg-dark">
         <div class="card bg-dark">
