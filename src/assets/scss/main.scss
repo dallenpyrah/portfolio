@@ -55,6 +55,7 @@ border-radius: 4rem;
 }
 
 .mobile-tablet {
+  overflow-x: hidden;
   @include media-breakpoint-only(lg) {
     display: none;
   }

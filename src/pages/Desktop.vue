@@ -195,6 +195,13 @@
         </div>
       </div>
     </div>
+    <div class="row bg-white">
+      <div class="col-4 mt-4 question ml-five text-success text-left">
+        <h1>What can I do for you <span class="hover-text-secondary text-dark">?</span></h1>
+        <div class="question-line">
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -214,6 +221,28 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.question-height{
+  height: 93vh;
+}
+.question:hover{
+ color: black!important;
+}
+.question{
+  transition: all 0.25s;
+}
+.question:hover .question-line{
+  opacity: 1;
+}
+.question-line{
+  border-radius: 3rem;
+  transition: all .35s;
+  opacity: 0;
+  position: absolute;
+  left: 8px;
+  background-color:  #00e68e!important;
+  height: 10px;
+  width: 425px;
+}
 .tsunami:hover{
   color: rgb(10, 104, 255);
   font-size: 60px;
@@ -243,7 +272,7 @@ export default {
   transition: all 0.25s;
 }
 .mt-keepr{
-  margin-top: 35rem;
+  margin-top: 30rem;
 }
 .mt-bug-text{
   margin-top: 30rem;
