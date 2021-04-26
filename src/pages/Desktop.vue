@@ -195,48 +195,31 @@
         </div>
       </div>
     </div>
-    <div class="row bg-white">
-      <div class="col-4 mt-4 question ml-five text-dark text-left">
+    <div class="row bg-white height-question">
+      <div class="col-4 mt-five question ml-five text-dark text-left">
         <h1>What can <span class="text-success">I</span> do for <span class="text-success">you</span> <span class="hover-text-secondary text-dark">?</span></h1>
         <div class="question-line">
         </div>
       </div>
     </div>
-    <div class="row question-height bg-white justify-content-center">
-      <div class="col-11 margin-top-question">
-        <div class="row justify-content-center">
-          <div class="col-3 card bg-success text-light ml-5 p-2">
-            <h3 class="text-center">
-              Front End
-            </h3>
-          </div>
-        </div>
+    <div class="row bg-white">
+      <div class="col-2 ml-six text-center">
+        <img class="img-fluid" src="../assets/img/blackshirt.png">
       </div>
-      <div class="col-11">
-        <div class="row justify-content-end">
-          <div class="col-3 card bg-dark text-light mr-5 p-2">
-            <h3 class="text-center">
-              Front End
-            </h3>
-          </div>
-        </div>
+      <div class="col-6 mt-question-description text-center text-grey">
+        <h4 class="line-padding-description">
+          With my knowledge of both front end and back end technolgoies I have the ability to build client side, server side, or the whole application while having enjoyment in developing all of it.
+          I also enjoy the process of designing applications and spend my free time learning more about modern UX/UI concepts and implement them into my applications.
+        </h4>
       </div>
-      <div class="col-11">
-        <div class="row justify-content-start  ml-5">
-          <div class="col-3 card bg-dark text-light p-2">
-            <h3 class="text-center">
-              Front End
-            </h3>
-          </div>
-        </div>
+      <div class="col-2 ml-six text-center">
+        <img class="img-fluid" src="../assets/img/guysitting.png">
       </div>
-      <div class="col-11">
-        <div class="row justify-content-center mt-5 mr-5">
-          <div class="col-3 card bg-success text-light p-2">
-            <h3 class="text-center">
-              Front End
-            </h3>
-          </div>
+    </div>
+    <div class="row bg-white height-question justify-content-center">
+      <div class="col-4 mt-six passion ml-five text-dark text-left">
+        <h2>I am a<span class="text-success"> passionate</span> student of <span class="text-success">life</span></h2>
+        <div class="passion-line">
         </div>
       </div>
     </div>
@@ -259,6 +242,25 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.mt-six{
+  margin-top: 6rem;
+}
+.line-padding-description{
+  padding: 10px 0 0 0;
+  line-height: 60px;
+}
+.text-grey{
+  color: #535353;
+}
+.mt-question-description{
+  margin-top: 5rem;
+}
+.ml-six{
+  margin-left: 5.25rem;
+}
+.mt-five{
+  margin-top: 3rem;
+}
 .question-height{
   height: 80vh;
 }
@@ -267,6 +269,28 @@ export default {
 }
 .question-height{
   height: 93vh;
+}
+.passion:hover{
+ color:  #00e68e!important;
+}
+.passion:hover .text-success{
+ color:  #000000!important;
+}
+.passion{
+  transition: all 0.25s;
+}
+.passion:hover .passion-line{
+  opacity: 1;
+}
+.passion-line{
+  border-radius: 3rem;
+  transition: all .35s;
+  opacity: 0;
+  position: absolute;
+  left: 8px;
+  background-color:  #00e68e!important;
+  height: 10px;
+  width: 480px;
 }
 .question:hover{
  color:  #00e68e!important;
