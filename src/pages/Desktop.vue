@@ -181,7 +181,7 @@
           <div class="col-6 text-center mt-3">
             <h5 data-aos="slide-down line-padding">
               <span class="">
-                This application is a full-stack application. I utilized a VueJs frontend and Vue-Router to manage the dom. On the server side I utilized the DotNet WebApi, implementing the Repository pattern to communicate with the database. In addition I used Auth0 for user management, dapper as an ORM and a MySQL server for the database.
+                This is a full-stack application. I utilized a VueJs frontend and Vue-Router to manage the dom. On the server side I utilized the DotNet WebApi, implementing the Repository pattern to communicate with the database. In addition I used Auth0 for user management, dapper as an ORM and a MySQL server for the database.
               </span>
             </h5>
           </div>
@@ -196,9 +196,47 @@
       </div>
     </div>
     <div class="row bg-white">
-      <div class="col-4 mt-4 question ml-five text-success text-left">
-        <h1>What can I do for you <span class="hover-text-secondary text-dark">?</span></h1>
+      <div class="col-4 mt-4 question ml-five text-dark text-left">
+        <h1>What can <span class="text-success">I</span> do for <span class="text-success">you</span> <span class="hover-text-secondary text-dark">?</span></h1>
         <div class="question-line">
+        </div>
+      </div>
+    </div>
+    <div class="row question-height bg-white justify-content-center">
+      <div class="col-11 margin-top-question">
+        <div class="row justify-content-center">
+          <div class="col-3 card bg-success text-light ml-5 p-2">
+            <h3 class="text-center">
+              Front End
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-11">
+        <div class="row justify-content-end">
+          <div class="col-3 card bg-dark text-light mr-5 p-2">
+            <h3 class="text-center">
+              Front End
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-11">
+        <div class="row justify-content-start  ml-5">
+          <div class="col-3 card bg-dark text-light p-2">
+            <h3 class="text-center">
+              Front End
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-11">
+        <div class="row justify-content-center mt-5 mr-5">
+          <div class="col-3 card bg-success text-light p-2">
+            <h3 class="text-center">
+              Front End
+            </h3>
+          </div>
         </div>
       </div>
     </div>
@@ -222,10 +260,19 @@ export default {
 
 <style scoped lang="scss">
 .question-height{
+  height: 80vh;
+}
+.margin-top-question{
+  margin-top: 10rem;
+}
+.question-height{
   height: 93vh;
 }
 .question:hover{
- color: black!important;
+ color:  #00e68e!important;
+}
+.question:hover .text-success{
+ color:  #000000!important;
 }
 .question{
   transition: all 0.25s;
