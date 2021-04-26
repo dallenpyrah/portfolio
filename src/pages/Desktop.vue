@@ -202,7 +202,7 @@
         </div>
       </div>
     </div>
-    <div class="row bg-white">
+    <div class="row bg-white justify-content-center">
       <div class="col-2 ml-six text-center">
         <img class="img-fluid" src="../assets/img/blackshirt.png">
       </div>
@@ -216,11 +216,21 @@
         <img class="img-fluid" src="../assets/img/guysitting.png">
       </div>
     </div>
-    <div class="row bg-white height-question justify-content-center">
-      <div class="col-4 mt-six passion ml-five text-dark text-left">
+    <div class="row bg-white justify-content-center">
+      <div class="col-2 ml-six text-center">
+        <img class="img-fluid" src="../assets/img/coffeeguy.png">
+      </div>
+    </div>
+    <div class="row bg-white justify-content-center">
+      <div class="col-5 mt-six passion ml-five text-dark text-center">
         <h2>I am a<span class="text-success"> passionate</span> student of <span class="text-success">life</span></h2>
-        <div class="passion-line">
-        </div>
+      </div>
+    </div>
+    <div class="row height-passion justify-content-center bg-white">
+      <div class="col-5 text-center mt-5">
+        <h4 class="text-secondary">
+          I have a <span class="text-dark">deep desire</span> to <span class="text-success">learn</span> all I can while I am <span class="text-dark">here</span> and I'm always <span class="text-dark">looking</span> for <span class="text-success">opportunities</span> to grow <span class="text-success">personally</span> and <span class="text-dark">professionally.</span>
+        </h4>
       </div>
     </div>
   </div>
@@ -242,8 +252,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.height-passion{
+  height: 20vh;
+}
 .mt-six{
-  margin-top: 6rem;
+  margin-top: 2rem;
 }
 .line-padding-description{
   padding: 10px 0 0 0;
