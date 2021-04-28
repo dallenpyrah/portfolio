@@ -222,7 +222,7 @@
       </div>
     </div>
     <div class="row bg-white justify-content-center">
-      <div class="col-5 mt-six passion ml-five text-dark text-center">
+      <div class="col-5 mt-six ml-five text-dark text-center">
         <h2>I am a<span class="text-success"> passionate</span> student of <span class="text-success">life</span></h2>
       </div>
     </div>
@@ -231,6 +231,13 @@
         <h4 class="text-secondary">
           I have a <span class="text-dark">deep desire</span> to <span class="text-success">learn</span> all I can while I am <span class="text-dark">here</span> and I'm always <span class="text-dark">looking</span> for <span class="text-success">opportunities</span> to grow <span class="text-success">personally</span> and <span class="text-dark">professionally.</span>
         </h4>
+      </div>
+    </div>
+    <div class="row bg-white">
+      <div class="col-4 mt-five contactme ml-five text-dark text-left">
+        <h1>Contact <span class="text-success">Me</span></h1>
+        <div class="contactme-line">
+        </div>
       </div>
     </div>
   </div>
@@ -304,6 +311,28 @@ export default {
   background-color:  #00e68e!important;
   height: 10px;
   width: 480px;
+}
+.contactme:hover{
+ color:  #00e68e!important;
+}
+.contactme:hover .text-success{
+ color:  #000000!important;
+}
+.contactme{
+  transition: all 0.25s;
+}
+.contactme:hover .contactme-line{
+  opacity: 1;
+}
+.contactme-line{
+  border-radius: 3rem;
+  transition: all .35s;
+  opacity: 0;
+  position: absolute;
+  left: 8px;
+  background-color:  #00e68e!important;
+  height: 10px;
+  width: 225px;
 }
 .question:hover{
  color:  #00e68e!important;
