@@ -1,6 +1,5 @@
 module.exports = {
-  // NOTE to host on github publicPath: '/YOUR-GITHUB-REPOSITORY-NAME/',
-  publicPath: '/portfolio/',
-  outputDir: 'root',
-  productionSourceMap: false
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/portfolio/'
+    : '/'
 }
