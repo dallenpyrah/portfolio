@@ -15,7 +15,7 @@
       </div>
       <div class="col-6 bg-white hover-background-right">
         <h1 class="text-success text-left text-name-dallen margin-name-dallen animate__animated animate__slideInRight">
-          Dallen <span class="text-dark text-name">.</span>
+          Dallen
         </h1>
         <div class="line-right">
         </div>
@@ -197,14 +197,14 @@
     </div>
     <div class="row bg-white height-question">
       <div class="col-4 mt-five question ml-five text-dark text-left">
-        <h1>What can <span class="text-success">I</span> do for <span class="text-success">you</span> <span class="hover-text-secondary text-dark">?</span></h1>
+        <h1 data-aos="slide-up">What can <span class="text-success">I</span> do for <span class="text-success">you</span> <span class="hover-text-secondary text-dark">?</span></h1>
         <div class="question-line">
         </div>
       </div>
     </div>
     <div class="row bg-white justify-content-center">
       <div class="col-2 ml-six text-center">
-        <img class="img-fluid" src="../assets/img/blackshirt.png">
+        <img data-aos="slide-left" class="img-fluid" src="../assets/img/blackshirt.png">
       </div>
       <div class="col-6 mt-question-description text-center text-grey">
         <h4 class="line-padding-description">
@@ -213,42 +213,46 @@
         </h4>
       </div>
       <div class="col-2 ml-six text-center">
-        <img class="img-fluid" src="../assets/img/guysitting.png">
+        <img data-aos="slide-right" class="img-fluid" src="../assets/img/guysitting.png">
       </div>
     </div>
     <div class="row bg-white justify-content-center">
       <div class="col-2 ml-six text-center">
-        <img class="img-fluid" src="../assets/img/coffeeguy.png">
+        <img data-aos="slide-up" class="img-fluid" src="../assets/img/coffeeguy.png">
       </div>
     </div>
     <div class="row bg-white justify-content-center">
       <div class="col-5 mt-six ml-five text-dark text-center">
-        <h2>I am a<span class="text-success"> passionate</span> student of <span class="text-success">life</span></h2>
+        <h2 data-aos="fade-in">I am a<span class="text-success"> passionate</span> student of <span class="text-success">life</span></h2>
       </div>
     </div>
     <div class="row height-passion justify-content-center bg-white">
       <div class="col-5 text-center mt-5">
-        <h4 class="text-secondary line-padding-passion">
+        <h4 data-aos="fade-in" class="text-secondary line-padding-passion">
           I have a <span class="text-dark">deep desire</span> to <span class="text-success">learn</span> all I can while I am <span class="text-dark">here</span> and I'm always <span class="text-dark">looking</span> for <span class="text-success">opportunities</span> to grow <span class="text-success">personally</span> and <span class="text-dark">professionally.</span>
         </h4>
       </div>
     </div>
     <div class="row bg-white">
       <div class="col-4 mt-five contactme ml-five text-dark text-left">
-        <h1>Contact <span class="text-success">Me</span></h1>
+        <h1 data-aos="slide-up">Contact <span class="text-success">Me</span></h1>
         <div class="contactme-line">
         </div>
       </div>
     </div>
-    <div class="row justify-content-center bg-white">
+    <div class="row justify-content-center bg-white align-items-center">
       <div class="col-3">
-        <img class="img-fluid" src="../assets/img/Contact.png">
+        <img data-aos="slide-right" class="img-fluid" src="../assets/img/Contact.png">
       </div>
-      <div class="col-3 img-fluid text-center margin-top-contact">
-        <h4><i class="fa fa-phone mr-3 text-success" aria-hidden="true"></i> (208) 392-8732</h4>
-        <h4><i class="fa fa-envelope mt-5 mr-3 text-success" aria-hidden="true"></i> dallenpyrah@gmail.com</h4>
-        <h4 class="mt-5">
-          <i class="fa fa-linkedin text-primary mr-3" aria-hidden="true"></i> <i class="fa fa-instagram text-danger mr-3" aria-hidden="true"></i> <i class="fa fa-github" aria-hidden="true"></i>
+      <div class="col-3 text-center align-items-center">
+        <h4 class="text-size-contact " data-aos="slide-left">
+          <i class="fa fa-phone mr-3 text-success" aria-hidden="true"></i> (208) 392-8732
+        </h4>
+        <h4 class="text-size-contact" data-aos="slide-left">
+          <i class="fa fa-envelope mt-3 mr-3 text-success" aria-hidden="true"></i> dallenpyrah@gmail.com
+        </h4>
+        <h4 class="mt-4 text-size-contact">
+          <a href="https://www.linkedin.com/in/dallenpyrah/"><i class="fa fa-linkedin text-primary mr-3" data-aos="slide-up" aria-hidden="true"></i></a>  <a href="https://www.instagram.com/imdallen/?hl=en"><i class="fa fa-instagram text-danger mr-3" data-aos="slide-up" aria-hidden="true"></i></a> <a href="https://github.com/dallenpyrah"><i class="fa fa-github" data-aos="slide-up" aria-hidden="true"></i></a>
         </h4>
       </div>
     </div>
@@ -564,17 +568,7 @@ export default {
   opacity: 0;
   background-color: rgb(255, 255, 255);
   height: 10px;
-  width: 525px;
-}
-.line-left{
-  border-radius: 3rem;
-  transition: all .75s;
-  opacity: 0;
-  position: absolute;
-  left: 800px;
-  background-color:  #00e68e!important;
-  height: 10px;
-  width: 325px;
+  width: 470px;
 }
 .hello:hover{
   transform: translateY(-10px);

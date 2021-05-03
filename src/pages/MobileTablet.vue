@@ -158,7 +158,7 @@
     </div>
     <div class="row justify-content-around mt-3">
       <div class="col-7 mb-3 mt-3">
-        <div class="card bg-warning rounded text-center" data-aos="fade-up-left">
+        <div class="card bg-dark rounded text-center" data-aos="fade-up-left">
           <h6 class="text-light mt-2">
             <i class="fa fa-user-circle text-success mr-2" aria-hidden="true"></i> Front End
           </h6>
@@ -179,7 +179,7 @@
         </div>
       </div>
       <div class="col-7 mt-3 mb-5">
-        <div class="card bg-warning rounded text-center mt-3" data-aos="fade-up-right">
+        <div class="card bg-dark rounded text-center mt-3" data-aos="fade-up-right">
           <h6 class="text-light mt-2">
             <i class="fa fa-laptop text-success mr-2" aria-hidden="true"></i> Back End
           </h6>
@@ -216,29 +216,10 @@
             <i class="fa fa-address-card mr-2 text-secondary" aria-hidden="true"></i> dallenpyrah@gmail.com
           </h6>
         </div>
-        <div class="col-10 text-center  text-light mt-5 mb-4" data-aos="fade-down-left">
-          <h4><span class="text-success">Your</span> Information</h4>
-          <form>
-            <div class="form-row mt-4">
-              <div class="col-6">
-                <input type="text" class="form-control" placeholder="First name">
-              </div>
-              <div class="col-6">
-                <input type="text" class="form-control" placeholder="Last name">
-              </div>
-              <div class="col-12 mt-2">
-                <input type="text" class="form-control" placeholder="Email">
-              </div>
-              <div class="col-12 mt-2">
-                <input type="text" class="form-control" placeholder="Phone Number">
-              </div>
-            </div>
-          </form>
-        </div>
         <div class="col-10 text-center mb-3 mt-3 text-light">
-          <i class="fa fa-github fa-2x text-secondary m-2" aria-hidden="true"></i>
-          <i class="fa fa-linkedin-square text-primary m-2 fa-2x" aria-hidden="true"></i>
-          <i class="fa fa-instagram fa-2x m-2 text-danger" aria-hidden="true"></i>
+          <a href="https://github.com/dallenpyrah"><i class="fa fa-github fa-2x text-secondary m-2" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/dallenpyrah/"><i class="fa fa-linkedin-square text-primary m-2 fa-2x" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/imdallen/?hl=en"><i class="fa fa-instagram fa-2x m-2 text-danger" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>
