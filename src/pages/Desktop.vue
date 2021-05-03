@@ -112,12 +112,12 @@
     <div class="row last-row-height bg-white justify-content-center">
       <div class="col-4 mt-6">
         <div class="card bg-dark text-center text-light middle-row p-2" data-aos="zoom-in-left">
-          <h2>.NET Core C#</h2>
+          <h2>Bootstrap</h2>
         </div>
       </div>
       <div class="col-4 mt-6">
         <div class="card bg-dark text-center text-light middle-row p-2" data-aos="zoom-in-right">
-          <h2>JavaScript E6</h2>
+          <h2>SASS</h2>
         </div>
       </div>
     </div>
@@ -165,8 +165,8 @@
         <div class="row justify-content-center">
           <div class="col-6 text-center mt-3">
             <h5 data-aos="slide-down line-padding">
-              <span class="">A solo full stack application built with Vue.js, Javascript, Node.js, MongoDb, Auth0, CSS, Bootstrap, and Animate.css.
-                Users have the ability to create, monitor, edit, and close bugs once logged in through Auth0</span>
+              <span class="">A solo full stack <span class="text-success hover-text-secondary">application</span> built with Vue.js, Javascript, Node.js, MongoDb, Auth0, CSS, Bootstrap, and Animate.css.
+                <span class="text-success hover-text-secondary">Users</span> have the <span class="text-success hover-text-secondary">ability</span> to create, monitor, edit, and close bugs once logged in through Auth0.</span>
             </h5>
           </div>
         </div>
@@ -175,13 +175,13 @@
     <div class="row h-100 justify-content-around bg-dark">
       <div class="col-6 text-center text-light mt-keepr">
         <h2 data-aos="slide-down">
-          <span class="hover-text-success">Keepr</span>
+          <span class="text-success">Keepr</span>
         </h2>
         <div class="row justify-content-center">
           <div class="col-6 text-center mt-3">
             <h5 data-aos="slide-down line-padding">
               <span class="">
-                This is a full-stack application. I utilized a VueJs frontend and Vue-Router to manage the dom. On the server side I utilized the DotNet WebApi, implementing the Repository pattern to communicate with the database. In addition I used Auth0 for user management, dapper as an ORM and a MySQL server for the database.
+                This is a <span class="text-success hover-text-secondary">full-stack application</span>. I utilized a VueJs frontend and Vue-Router to manage the dom. On the server side I utilized the DotNet WebApi, <span class="text-success hover-text-secondary">implementing</span> the Repository pattern to communicate with the database. In addition I used Auth0 for <span class="text-success hover-text-secondary">user management</span>, dapper as an ORM and a MySQL server for the database.
               </span>
             </h5>
           </div>
@@ -228,7 +228,7 @@
     </div>
     <div class="row height-passion justify-content-center bg-white">
       <div class="col-5 text-center mt-5">
-        <h4 class="text-secondary">
+        <h4 class="text-secondary line-padding-passion">
           I have a <span class="text-dark">deep desire</span> to <span class="text-success">learn</span> all I can while I am <span class="text-dark">here</span> and I'm always <span class="text-dark">looking</span> for <span class="text-success">opportunities</span> to grow <span class="text-success">personally</span> and <span class="text-dark">professionally.</span>
         </h4>
       </div>
@@ -238,6 +238,18 @@
         <h1>Contact <span class="text-success">Me</span></h1>
         <div class="contactme-line">
         </div>
+      </div>
+    </div>
+    <div class="row justify-content-center bg-white">
+      <div class="col-3">
+        <img class="img-fluid" src="../assets/img/Contact.png">
+      </div>
+      <div class="col-3 img-fluid text-center margin-top-contact">
+        <h4><i class="fa fa-phone mr-3 text-success" aria-hidden="true"></i> (208) 392-8732</h4>
+        <h4><i class="fa fa-envelope mt-5 mr-3 text-success" aria-hidden="true"></i> dallenpyrah@gmail.com</h4>
+        <h4 class="mt-5">
+          <i class="fa fa-linkedin text-primary mr-3" aria-hidden="true"></i> <i class="fa fa-instagram text-danger mr-3" aria-hidden="true"></i> <i class="fa fa-github" aria-hidden="true"></i>
+        </h4>
       </div>
     </div>
   </div>
@@ -259,6 +271,12 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.margin-top-contact{
+  margin-top: 10.5rem;
+}
+.line-padding-passion{
+  line-height: 50px;
+}
 .height-passion{
   height: 20vh;
 }
