@@ -197,7 +197,9 @@
     </div>
     <div class="row bg-white height-question">
       <div class="col-4 mt-five question ml-five text-dark text-left">
-        <h1 data-aos="slide-up">What can <span class="text-success">I</span> do for <span class="text-success">you</span> <span class="hover-text-secondary text-dark">?</span></h1>
+        <h1 data-aos="slide-up">
+          What can <span class="text-success">I</span> do for <span class="text-success">you</span> <span class="hover-text-secondary text-dark">?</span>
+        </h1>
         <div class="question-line">
         </div>
       </div>
@@ -223,7 +225,9 @@
     </div>
     <div class="row bg-white justify-content-center">
       <div class="col-5 mt-six ml-five text-dark text-center">
-        <h2 data-aos="fade-in">I am a<span class="text-success"> passionate</span> student of <span class="text-success">life</span></h2>
+        <h2 data-aos="fade-in">
+          I am a<span class="text-success"> passionate</span> student of <span class="text-success">life</span>
+        </h2>
       </div>
     </div>
     <div class="row height-passion justify-content-center bg-white">
@@ -235,7 +239,9 @@
     </div>
     <div class="row bg-white">
       <div class="col-4 mt-five contactme ml-five text-dark text-left">
-        <h1 data-aos="slide-up">Contact <span class="text-success">Me</span></h1>
+        <h1 data-aos="slide-up">
+          Contact <span class="text-success">Me</span>
+        </h1>
         <div class="contactme-line">
         </div>
       </div>
@@ -269,6 +275,7 @@ export default {
     })
     return {
       state
+      // Just for empty commit
     }
   }
 }
