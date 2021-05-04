@@ -275,7 +275,6 @@ export default {
     })
     return {
       state
-      // Just for empty commit
     }
   }
 }
