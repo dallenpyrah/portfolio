@@ -282,10 +282,10 @@ export default {
 
 <style scoped lang="scss">
 h1{
-  font-size: 2rem!important;
+  font-size: 2rem;
 }
 h2{
-  font-size: 1.5rem!important;
+  font-size: 1.5rem;
 }
 .margin-top-contact{
   margin-top: 10.5rem;
