@@ -281,6 +281,12 @@ export default {
 </script>
 
 <style scoped lang="scss">
+h1{
+  font-size: 2rem!important;
+}
+h2{
+  font-size: 1.5rem!important;
+}
 .margin-top-contact{
   margin-top: 10.5rem;
 }
@@ -413,7 +419,7 @@ export default {
   transition: all 0.25s;
 }
 .mt-keepr{
-  margin-top: 30rem;
+  margin-top: 27rem;
 }
 .mt-bug-text{
   margin-top: 30rem;
@@ -422,7 +428,7 @@ export default {
   margin-top: 12rem;
 }
 .image-bug-size{
-  width: 450px;
+  width: 411px;
 }
 .image:hover{
   transform: translateY(-20px);
@@ -496,7 +502,7 @@ export default {
   left: 8px;
   background-color:  #00e68e!important;
   height: 10px;
-  width: 300px;
+  width: 235px;
 }
 .portfolio:hover .portfolio-line{
   opacity: 1;
@@ -519,7 +525,7 @@ export default {
   left: 8px;
   background-color:  #00e68e!important;
   height: 10px;
-  width: 300px;
+  width: 250px;
 }
 .aboutme:hover{
  color: black!important;
@@ -538,7 +544,7 @@ export default {
   left: 8px;
   background-color:  #00e68e!important;
   height: 10px;
-  width: 225px;
+  width: 200px;
 }
 .hover-text-secondary:hover{
   color:#959595!important;
@@ -566,7 +572,7 @@ export default {
   line-height: 100px;
 }
 .margin-description{
-  margin-top: 17rem;
+  margin-top: 6rem;
 }
 .line-right{
   border-radius: 3rem;
@@ -574,7 +580,7 @@ export default {
   opacity: 0;
   background-color: rgb(255, 255, 255);
   height: 10px;
-  width: 470px;
+  width: 375px;
 }
 .hello:hover{
   transform: translateY(-10px);
@@ -589,7 +595,7 @@ export default {
   font-size: 5rem;
 }
 .text-name-dallen{
-  font-size: 10rem;
+  font-size: 8rem;
 }
 .text-description{
   font-size: 6rem;
@@ -598,10 +604,10 @@ export default {
   color: rgb(43, 43, 43)!important;
 }
 .margin-name{
-  margin-top: 20.5rem;
+  margin-top: 16rem;
 }
 .margin-name-dallen{
-  margin-top: 26.5rem;
+  margin-top: 22rem;
 }
 .hover-background-left:hover .text-light{
   color: black!important;
