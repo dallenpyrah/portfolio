@@ -5,3 +5,5 @@ module.exports = {
   productionSourceMap: false,
   devServer: { https: false }
 }
+
+// In this file make sure the output dir is root and the public path is blank for heroku deploys
