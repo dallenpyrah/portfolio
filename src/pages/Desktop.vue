@@ -419,7 +419,7 @@ h2{
   transition: all 0.25s;
 }
 .mt-keepr{
-  margin-top: 27rem;
+  margin-top: 21rem;
 }
 .mt-bug-text{
   margin-top: 30rem;
@@ -428,7 +428,7 @@ h2{
   margin-top: 12rem;
 }
 .image-bug-size{
-  width: 411px;
+  width: 345px;
 }
 .image:hover{
   transform: translateY(-20px);
